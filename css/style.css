@@ -1,0 +1,583 @@
+*
+{
+    
+}
+
+
+
+#section_home
+{
+    background-image:url(../images/exam/bg-image-28.jpg);
+    background-size: 100% 100%;
+}
+.back
+{
+    height: 670px;
+    background-color: rgba(31, 31, 31, 0.55);
+}
+.navbar
+{
+    background-color:transparent;
+    z-index: 1;
+    padding: 10px
+}
+.navbar .navbar-toggler
+{
+    color: #000;
+}
+.navbar-brand
+{
+  padding: 0px;
+  margin: 0px;
+}
+#section_home .logo
+{
+    width: 95px;
+    height: 40px;
+    margin-left: 20px
+}
+.navbar ul li 
+{
+  padding: 10px 10px
+}
+.nav-link
+{
+  color:#000;
+}
+#section_home .nav-link:hover
+{
+    color: #000;
+}
+#section_home .info
+{
+    text-align: center;
+    margin-top: 100px
+}
+#section_home .info h1
+{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700px;
+}
+#section_home .info h4
+{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+#section_home .info button
+{
+    padding: 15px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px
+}
+
+
+
+
+
+#section_about .info h6
+{
+    font-weight: 500;
+    font-size: 13px;
+    color: #1f1f1f;
+}
+#section_about .info p
+{
+    font-size: 24px;
+    margin: 20px 0;
+        color: #787878;
+    padding: 10px
+}
+#section_about .info span:after
+{
+    content: "";
+    animation-name: app;
+    animation-iteration-count: infinite;
+    color: #00c3da;
+    font-weight: 400;
+}
+@keyframes app
+{
+    0%{content: "a|"}
+    2%{content: "ap|"}
+    4%{content: "app|"}
+    6%{content: "apps|"}
+    8%{content: "app|"}
+    10%{content: "ap|"}
+    12%{content: "a|"}
+    14%{content: "|"}
+    16%{content: "w|"}
+    18%{content: "we|"}
+    20%{content: "web|"}
+    22%{content: "webs|"}
+    24%{content: "websi|"}
+    26%{content: "websit|"}
+    28%{content: "website|"}
+    30%{content: "websites|"}
+    32%{content: "website|"}
+    34%{content: "websit|"}
+    36%{content: "websi|"}
+    38%{content: "webs|"}
+    40%{content: "web|"}
+    42%{content: "we|"}
+    44%{content: "w|"}
+    46%{content: "|"}
+    48%{content: "s|"}
+    50%{content: "so|"}
+    52%{content: "sof|"}
+    54%{content: "soft|"}
+    56%{content: "softw|"}
+    58%{content: "softwa|"}
+    60%{content: "softwar|"}
+    62%{content: "software|"}
+    64%{content: "softwares|"}
+    66%{content: "software|"}
+    68%{content: "softwar|"}
+    70%{content: "softwa|"}
+    75%{content: "softw|"}
+    80%{content: "soft|"}
+    85%{content: "sof|"}
+    90%{content: "so|"}
+    95%{content: "s|"}    
+    100%{content: "|"}
+    
+}
+#section_about .info button
+{
+    margin-bottom: 10px
+}
+#section_about .br
+{
+    border: solid 1px #eee
+}
+
+
+
+
+#section_team
+{
+    padding: 0px 30px
+}
+#section_team .pers
+{
+    margin-bottom: 8%
+}
+
+#section_team .info h2
+{
+    font-size: 38px;
+    color: #1f1f1f;
+    font-weight: 900
+}
+#section_team .info h4
+{
+    font-weight: 400;
+    font-size: 18px;
+    color:#787878;
+}
+#section_team .im
+{
+    position: relative;
+}
+
+#section_team .pers .ov
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(0, 195, 218, 0.9);
+    height:90%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+#section_team .pers:hover .ov
+{
+    opacity: 1;
+    height: 100%;
+}
+
+
+#section_team .pers i
+{
+    color: #fff;
+}
+#section_team .pers h4
+{
+     color: #fff;
+    padding-top: 50%;
+    padding-left: 10px
+}
+#section_team .pers p
+{
+    color: #fff;
+   padding-left: 10px
+}
+
+
+
+
+#section_services
+{
+    background-image: url("../images/exam/images/bg-image-26.jpg");
+    background-size: 100% 100%;
+ 
+}
+#section_services .back
+{
+    background-color: #1f1f1f;
+    opacity: 0.7;
+    height: auto
+}
+#section_services .ico h4
+{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px
+}
+#section_services .ico i
+{
+    color: #fff;
+}
+#section_services .inf
+{
+    
+}
+#section_services .inf h2
+{
+    font-size: 38px;
+    color:#fff;
+    font-weight: 700;
+     padding: 10px
+}
+#section_services .inf p
+{
+   color:#fff; 
+    padding: 10px
+}
+#section_services .num ul
+{
+    list-style-type: none;
+    margin-left: 10px
+}
+#section_services .num ul li i
+{
+    color: #fff;
+    padding-right: 10px
+}
+#section_services .num ul li 
+{
+    color: #fff;
+    padding: 10px
+}
+
+
+
+#secttion_work .worknav ul li
+{
+  padding: 0px 10px;
+     border: solid 1px #09c;
+     border-radius: 30%;
+    margin: 10px;
+}
+#secttion_work .worknav ul li a
+{
+    border-radius: 50%;
+    color: #000;
+    background-color:transparent;
+}
+
+
+#secttion_work  img
+{
+    transition: all 1s;
+}
+
+#secttion_work .detail
+{
+    position: absolute;
+    top: auto;
+    right: 30px;
+    bottom: 80px;
+    left: 30px;
+    padding: 25px;
+    transition: all .5s ease;
+    opacity: 0;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(30px);
+}
+#secttion_work .ii1
+{ 
+    position: relative;
+    margin-bottom: 20px;
+}
+#secttion_work .ii1:hover .detail
+{
+    opacity: 1;
+}
+#secttion_work .ii1:hover img
+{
+    transform: scale(1.2,1.2);
+}
+#secttion_work .i1
+{
+    overflow: hidden;
+}
+
+#secttion_work .ii2
+{ 
+    position: relative;
+        margin-bottom: 20px
+
+}
+#secttion_work .ii2:hover .detail
+{
+    opacity: 1;
+}
+#secttion_work .ii2:hover img
+{
+    transform: scale(1.2,1.2);
+}
+#secttion_work .i2
+{
+    overflow: hidden;
+}
+#secttion_work .ii3
+{ 
+    position: relative;
+        margin-bottom: 20px
+
+}
+#secttion_work .ii3:hover .detail
+{
+    opacity: 1;
+}
+#secttion_work .ii3:hover img
+{
+    transform: scale(1.2,1.2);
+}
+#secttion_work .i3
+{
+    overflow: hidden;
+}
+#secttion_work .ii4
+{ 
+    position: relative;
+        margin-bottom: 20px
+
+}
+#secttion_work .ii4:hover .detail
+{
+    opacity: 1;
+}
+#secttion_work .ii4:hover img
+{
+    transform: scale(1.2,1.2);
+}
+#secttion_work .i4
+{
+    overflow: hidden;
+}
+#secttion_work .ii5
+{ 
+    position: relative;
+        margin-bottom: 20px
+
+}
+#secttion_work .ii5:hover .detail
+{
+    opacity: 1;
+}
+#secttion_work .ii5:hover img
+{
+    transform: scale(1.2,1.2);
+}
+#secttion_work .i5
+{
+    overflow: hidden;
+}
+#secttion_work .ii6
+{ 
+    position: relative;
+        margin-bottom: 20px
+
+}
+#secttion_work .ii6:hover .detail
+{
+    opacity: 1;
+}
+#secttion_work .ii6:hover img
+{
+    transform: scale(1.2,1.2);
+}
+#secttion_work .i6
+{
+    overflow: hidden;
+}
+
+
+
+#section_pricing
+{
+    background-color: #f7f7f7;
+    padding: 20px 0px
+}
+#section_pricing .pr h2
+{
+    color: #1f1f1f;
+        font-size: 32px;
+}
+#section_pricing .pr h4
+{
+    font-weight: 400;
+    font-size: 18px;
+        color: #787878;
+}
+
+#section_pricing .info
+{
+    background-color: #ffffff;  
+    padding: 20px 0px;
+    margin-bottom: 20px
+    
+}
+
+#section_pricing .info h4
+{
+    font-size: 13px;
+    color: #1f1f1f;
+     font-weight: 400;
+    padding: 10px 40px
+}
+#section_pricing .info h2
+{
+        font-size: 55px;
+    font-weight: 500;
+    color: #1f1f1f;
+     padding: 10px 30px
+}
+#section_pricing .info sub
+{
+        font-size: 18px;
+    font-weight: 400;
+}
+#section_pricing .info ul
+{
+    list-style-type: none
+}
+#section_pricing .info ul li
+{
+    color: #878787;
+    padding: 10px 0px 
+}
+#section_pricing .info button
+{
+    margin: 10px 30px
+}
+
+
+#section_pricing .intro h6
+{
+        font-weight: 500;
+    color: #1f1f1f;
+    font-size: 13px;
+    padding-top: 40px
+}
+#section_pricing .per1
+{
+    background-color: #fff;
+}
+#section_pricing .per1 h4
+{
+   font-size: 24px;
+    color: #1f1f1f;
+}
+#section_pricing .per1 span
+{
+    font-size: 12px;
+    font-weight:500;
+    color: #787878
+}
+#section_pricing .per1 p
+{
+    margin: 25px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #787878
+}
+
+
+
+#contact h2
+{
+    font-size: 32px;
+    color: #1f1f1f;
+    padding: 20px 0px
+}
+#contact h4
+{
+    font-weight: 400;
+    font-size: 18px;
+    color: #787878;
+    padding: 10px 0px
+}
+#contact form label
+{
+        color: #1f1f1f;
+        font-weight: 500;
+    font-size: 13px;
+    padding: 10px 0px
+}
+#contact form input
+{
+        height: 50px;
+        border: 2px solid #eee;
+        width: 100%;
+   padding-left: 5px
+}
+#contact form textarea
+{
+    height: 150px;
+    width: 100%;
+     border: 2px solid #eee;
+}
+#contact button
+{
+    margin:20px 0px
+}
+footer
+{
+    padding: 20px 0px;
+    background-color: #f7f7f7;
+}
+footer p
+{
+    float: right;
+}
+
+footer .social ul li
+{
+    list-style-type: none;
+    float: left;
+    
+}
+
+footer .social ul li a i
+{
+   
+    color: #777;
+ 
+    padding: 0px 10px;
+    
+}
+footer .social ul li a i:hover
+{
+    color: #09c
+}
+
